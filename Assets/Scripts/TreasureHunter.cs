@@ -53,8 +53,8 @@ public class TreasureHunter : MonoBehaviour
                 CollectibleTreasure objectComponent = hitObject.GetComponent<CollectibleTreasure>();
                 string objectName = objectComponent.getType();
                 string assetPath = "Assets/Collectibles/" + objectName + ".prefab";
-                CollectibleTreasure prefab = (CollectibleTreasure)AssetDatabase.LoadAssetAtPath(assetPath, typeof(CollectibleTreasure));
-                //CollectibleTreasure prefab = (CollectibleTreasure)Resources.Load<objectName>(assetPath);
+                //CollectibleTreasure prefab = (CollectibleTreasure)AssetDatabase.LoadAssetAtPath(assetPath, typeof(CollectibleTreasure));
+                CollectibleTreasure prefab = (CollectibleTreasure)Resources.Load(objectName, typeof(CollectibleTreasure));
                 if (!prefab){
                     Debug.Log("Prefab is null.");
                 }
@@ -64,8 +64,9 @@ public class TreasureHunter : MonoBehaviour
         } else if (OVRInput.GetDown(OVRInput.RawButton.RHandTrigger)) {
             centerPoint.text = "GRABBED ITEM!";
 
-            Collider[] overlappingThings = Physics.OverlapSphere(rightPointerObject.transform.position,0.01f,collectiblesMask);
+            Collider[] overlappingThings = Physics.OverlapSphere(rightPointerObject.transform.position, 0.01f, collectiblesMask);
             if (overlappingThings.Length > 0) {
+                centerPoint.text = "object is: " + overlappingThings[0].gameObject;
                 attachGameObjectToAChildGameObject(overlappingThings[0].gameObject, rightPointerObject, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, true);
                 //I'm not bothering to check for nullity because layer mask should ensure I only collect collectibles.
                 thingIGrabbed=overlappingThings[0].gameObject.GetComponent<CollectibleTreasure>();
@@ -101,7 +102,6 @@ public class TreasureHunter : MonoBehaviour
         }
         totalScore = currentScore;
         numberOfItemsCollected = currentNumberOfItems;
-        //scoreText.text = "SCORE: " + totalScore + "\n" + "NUMBER OF ITEMS: " + numberOfItemsCollected;
         string scoreTextUpdate = "";
         foreach(KeyValuePair<CollectibleTreasure, int> collectible in inventory.collectibles) {
             scoreTextUpdate += collectible.Key + " | " + collectible.Value + " | " + collectible.Key.value + "\n";

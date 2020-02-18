@@ -17,9 +17,4 @@ public class CollectibleTreasure : MonoBehaviour
     public string getType() {
         return collectibleType;
     }
-
-/*
-    void onCollisionEnter(Collision collision) {
-        Debug.Log("Collision detected! (Box)");
-    } */
 }
