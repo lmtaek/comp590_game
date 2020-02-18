@@ -88,7 +88,7 @@ public class TreasureHunter : MonoBehaviour
     }
 
     bool canPutInInventory(CollectibleTreasure item) {
-        Collider[] overlappingWithWaistThings = Physics.OverlapSphere(waistPosition, 0.1f, collectiblesMask);
+        Collider[] overlappingWithWaistThings = Physics.OverlapSphere(waistPosition, 0.5f, collectiblesMask);
         if (overlappingWithWaistThings.Length > 0) {
             if (overlappingWithWaistThings[0].gameObject.GetComponent<CollectibleTreasure>() == thingIGrabbed) {
                 return true;
@@ -179,6 +179,7 @@ public static void handleAttachmentRules(GameObject GOToHandle, AttachmentRule l
                     Debug.Log("Prefab is null.");
                 }
                 addToInventory(prefab);
+                centerPoint.text = "Added item";
                 CollectibleTreasure temporaryThingIGrabbed = thingIGrabbed;
                 thingIGrabbed = null;
                 Destroy(temporaryThingIGrabbed);
