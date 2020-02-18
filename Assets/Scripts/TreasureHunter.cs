@@ -66,7 +66,7 @@ public class TreasureHunter : MonoBehaviour
                 Destroy(hitObject);
                 }
         } else if (OVRInput.GetDown(OVRInput.RawButton.RHandTrigger)) {
-            centerPoint.text = "GRABBED ITEM!";
+            //centerPoint.text = "GRABBED ITEM!";
 
             Collider[] overlappingThings = Physics.OverlapSphere(rightPointerObject.transform.position, 0.01f, collectiblesMask);
             if (overlappingThings.Length > 0) {
@@ -77,7 +77,7 @@ public class TreasureHunter : MonoBehaviour
             }
 
         } else if (OVRInput.GetUp(OVRInput.RawButton.RHandTrigger)) {
-            centerPoint.text = "DROPPED ITEM!";
+            //centerPoint.text = "DROPPED ITEM!";
             letGo();
         }
         // else {
@@ -179,10 +179,10 @@ public static void handleAttachmentRules(GameObject GOToHandle, AttachmentRule l
                     Debug.Log("Prefab is null.");
                 }
                 addToInventory(prefab);
-                centerPoint.text = "Added item";
+                //centerPoint.text = "Added item";
                 CollectibleTreasure temporaryThingIGrabbed = thingIGrabbed;
                 thingIGrabbed = null;
-                Destroy(temporaryThingIGrabbed);
+                Destroy(temporaryThingIGrabbed.gameObject);
 
             }
 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollectibleCapsule : CollectibleTreasure
+public class CollectibleCube : CollectibleTreasure
 {
     // Start is called before the first frame update
     void Start()
