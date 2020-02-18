@@ -54,6 +54,7 @@ public class TreasureHunter : MonoBehaviour
                 string objectName = objectComponent.getType();
                 string assetPath = "Assets/Collectibles/" + objectName + ".prefab";
                 CollectibleTreasure prefab = (CollectibleTreasure)AssetDatabase.LoadAssetAtPath(assetPath, typeof(CollectibleTreasure));
+                //CollectibleTreasure prefab = (CollectibleTreasure)Resources.Load<objectName>(assetPath);
                 if (!prefab){
                     Debug.Log("Prefab is null.");
                 }
