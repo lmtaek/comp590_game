@@ -43,6 +43,10 @@ public class TreasureHunter : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
+        
+        previousPointerPos=rightPointerObject.gameObject.transform.position;
+        waistPosition = myCam.gameObject.transform.position - new Vector3(0, 1, 0);
+
         if (Input.GetKeyDown("j")) {
             Debug.Log("Pressed 'J' key.");
             Vector3 originPosition = myCam.gameObject.transform.position;
@@ -52,7 +56,7 @@ public class TreasureHunter : MonoBehaviour
                 GameObject hitObject = hit.collider.gameObject;
                 CollectibleTreasure objectComponent = hitObject.GetComponent<CollectibleTreasure>();
                 string objectName = objectComponent.getType();
-                string assetPath = "Assets/Collectibles/" + objectName + ".prefab";
+                //string assetPath = "Assets/Collectibles/" + objectName + ".prefab";
                 //CollectibleTreasure prefab = (CollectibleTreasure)AssetDatabase.LoadAssetAtPath(assetPath, typeof(CollectibleTreasure));
                 CollectibleTreasure prefab = (CollectibleTreasure)Resources.Load(objectName, typeof(CollectibleTreasure));
                 if (!prefab){
@@ -66,22 +70,32 @@ public class TreasureHunter : MonoBehaviour
 
             Collider[] overlappingThings = Physics.OverlapSphere(rightPointerObject.transform.position, 0.01f, collectiblesMask);
             if (overlappingThings.Length > 0) {
-                centerPoint.text = "object is: " + overlappingThings[0].gameObject;
+                //centerPoint.text = "object is: " + overlappingThings[0].gameObject;
                 attachGameObjectToAChildGameObject(overlappingThings[0].gameObject, rightPointerObject, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, true);
                 //I'm not bothering to check for nullity because layer mask should ensure I only collect collectibles.
-                thingIGrabbed=overlappingThings[0].gameObject.GetComponent<CollectibleTreasure>();
+                thingIGrabbed = overlappingThings[0].gameObject.GetComponent<CollectibleTreasure>();
             }
 
         } else if (OVRInput.GetUp(OVRInput.RawButton.RHandTrigger)) {
             centerPoint.text = "DROPPED ITEM!";
             letGo();
-
-        } 
+        }
         // else {
         //     centerPoint.text = ".";
         // }
-        previousPointerPos=rightPointerObject.gameObject.transform.position;
-        waistPosition = myCam.gameObject.transform.position - new Vector3(0, 1, 0);
+        // previousPointerPos=rightPointerObject.gameObject.transform.position;
+        // waistPosition = myCam.gameObject.transform.position - new Vector3(0, 1, 0);
+    }
+
+    bool canPutInInventory(CollectibleTreasure item) {
+        Collider[] overlappingWithWaistThings = Physics.OverlapSphere(waistPosition, 0.1f, collectiblesMask);
+        if (overlappingWithWaistThings.Length > 0) {
+            if (overlappingWithWaistThings[0].gameObject.GetComponent<CollectibleTreasure>() == thingIGrabbed) {
+                return true;
+            }
+        }
+        return false;
+
     }
 
     void addToInventory(CollectibleTreasure item) {
@@ -102,7 +116,7 @@ public class TreasureHunter : MonoBehaviour
         }
         totalScore = currentScore;
         numberOfItemsCollected = currentNumberOfItems;
-        string scoreTextUpdate = "";
+        string scoreTextUpdate = "COLLECTIBLE NAME | # OF COLLECTIBLE | VALUE\n";
         foreach(KeyValuePair<CollectibleTreasure, int> collectible in inventory.collectibles) {
             scoreTextUpdate += collectible.Key + " | " + collectible.Value + " | " + collectible.Key.value + "\n";
         }
@@ -139,7 +153,7 @@ public static void handleAttachmentRules(GameObject GOToHandle, AttachmentRule l
         new Vector3(1,1,1);
     }
     public void simulatePhysics(GameObject target,Vector3 oldParentVelocity,bool simulate){
-        Rigidbody rb=target.GetComponent<Rigidbody>();
+        Rigidbody rb = target.GetComponent<Rigidbody>();
         if (rb){
             if (!simulate){
                 Destroy(rb);
@@ -156,8 +170,22 @@ public static void handleAttachmentRules(GameObject GOToHandle, AttachmentRule l
     }
     void letGo() {
         detachGameObject(thingIGrabbed.gameObject, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld);
-                simulatePhysics(thingIGrabbed.gameObject,(rightPointerObject.gameObject.transform.position-previousPointerPos)/Time.deltaTime,true);
-                thingIGrabbed=null;
+        simulatePhysics(thingIGrabbed.gameObject,(rightPointerObject.gameObject.transform.position-previousPointerPos)/Time.deltaTime,true);
+
+        if (canPutInInventory(thingIGrabbed)) {
+                string objectName = thingIGrabbed.getType();
+                CollectibleTreasure prefab = (CollectibleTreasure)Resources.Load(objectName, typeof(CollectibleTreasure));
+                if (!prefab){
+                    Debug.Log("Prefab is null.");
+                }
+                addToInventory(prefab);
+                CollectibleTreasure temporaryThingIGrabbed = thingIGrabbed;
+                thingIGrabbed = null;
+                Destroy(temporaryThingIGrabbed);
+
+            }
+
+        thingIGrabbed=null;
     }
 
     public static void detachGameObject(GameObject GOToDetach, AttachmentRule locationRule, AttachmentRule rotationRule, AttachmentRule scaleRule){
