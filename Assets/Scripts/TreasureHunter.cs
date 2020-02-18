@@ -80,11 +80,6 @@ public class TreasureHunter : MonoBehaviour
             //centerPoint.text = "DROPPED ITEM!";
             letGo();
         }
-        // else {
-        //     centerPoint.text = ".";
-        // }
-        // previousPointerPos=rightPointerObject.gameObject.transform.position;
-        // waistPosition = myCam.gameObject.transform.position - new Vector3(0, 1, 0);
     }
 
     bool canPutInInventory(CollectibleTreasure item) {
