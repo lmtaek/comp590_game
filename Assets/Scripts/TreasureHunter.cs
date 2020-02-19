@@ -68,7 +68,7 @@ public class TreasureHunter : MonoBehaviour
         } else if (OVRInput.GetDown(OVRInput.RawButton.RHandTrigger)) {
             //centerPoint.text = "GRABBED ITEM!";
 
-            Collider[] overlappingThings = Physics.OverlapSphere(rightPointerObject.transform.position, 0.2f, collectiblesMask);
+            Collider[] overlappingThings = Physics.OverlapSphere(rightPointerObject.transform.position, 0.1f, collectiblesMask);
             if (overlappingThings.Length > 0) {
                 //centerPoint.text = "object is: " + overlappingThings[0].gameObject;
                 attachGameObjectToAChildGameObject(overlappingThings[0].gameObject, rightPointerObject, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, true);
