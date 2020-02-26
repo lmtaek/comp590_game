@@ -28,6 +28,8 @@ public class TreasureHunter : MonoBehaviour
      public TreasureHunterInventory inventory;
      public int totalScore;
      int numberOfItemsCollected = 0;
+     bool trapTriggered = false;
+     public CollectibleTreasure trapTreasure;
 
 //Text fields
      public TextMesh scoreText;
@@ -56,8 +58,6 @@ public class TreasureHunter : MonoBehaviour
                 GameObject hitObject = hit.collider.gameObject;
                 CollectibleTreasure objectComponent = hitObject.GetComponent<CollectibleTreasure>();
                 string objectName = objectComponent.getType();
-                //string assetPath = "Assets/Collectibles/" + objectName + ".prefab";
-                //CollectibleTreasure prefab = (CollectibleTreasure)AssetDatabase.LoadAssetAtPath(assetPath, typeof(CollectibleTreasure));
                 CollectibleTreasure prefab = (CollectibleTreasure)Resources.Load(objectName, typeof(CollectibleTreasure));
                 if (!prefab){
                     Debug.Log("Prefab is null.");
@@ -70,10 +70,13 @@ public class TreasureHunter : MonoBehaviour
 
             Collider[] overlappingThings = Physics.OverlapSphere(rightPointerObject.transform.position, 0.1f, collectiblesMask);
             if (overlappingThings.Length > 0) {
-                //centerPoint.text = "object is: " + overlappingThings[0].gameObject;
                 attachGameObjectToAChildGameObject(overlappingThings[0].gameObject, rightPointerObject, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, true);
                 //I'm not bothering to check for nullity because layer mask should ensure I only collect collectibles.
                 thingIGrabbed = overlappingThings[0].gameObject.GetComponent<CollectibleTreasure>();
+                // if ((thingIGrabbed == trapTreasure) && !trapTriggered) {
+                //     centerPoint.text = "TRAP TRIGGERED!";
+                //     triggerTrap();
+                // }
             }
 
         } else if (OVRInput.GetUp(OVRInput.RawButton.RHandTrigger)) {
@@ -117,6 +120,10 @@ public class TreasureHunter : MonoBehaviour
         }
         scoreTextUpdate += "TOTAL SCORE: " + totalScore;
         scoreText.text = scoreTextUpdate;
+    }
+
+    void triggerTrap() {
+        trapTriggered = true;
     }
 
     public void attachGameObjectToAChildGameObject(GameObject GOToAttach, GameObject newParent, AttachmentRule locationRule, AttachmentRule rotationRule, AttachmentRule scaleRule, bool weld){
@@ -174,7 +181,6 @@ public static void handleAttachmentRules(GameObject GOToHandle, AttachmentRule l
                     Debug.Log("Prefab is null.");
                 }
                 addToInventory(prefab);
-                //centerPoint.text = "Added item";
                 CollectibleTreasure temporaryThingIGrabbed = thingIGrabbed;
                 thingIGrabbed = null;
                 Destroy(temporaryThingIGrabbed.gameObject);
