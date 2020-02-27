@@ -15,6 +15,7 @@ public class TreasureHunter : MonoBehaviour
     public OVRCameraRig oVRCameraRig;
     public OVRManager oVRManager;
     public OVRHeadsetEmulator oVRHeadsetEmulator;
+    public OVRPlayerController player;
     public Camera myCam;
     Vector3 waistPosition;
 
@@ -73,8 +74,6 @@ public class TreasureHunter : MonoBehaviour
         }
         else if (OVRInput.GetDown(OVRInput.RawButton.RHandTrigger))
         {
-            //centerPoint.text = "GRABBED ITEM!";
-
             Collider[] overlappingThings = Physics.OverlapSphere(rightPointerObject.transform.position, 0.1f, collectiblesMask);
             if (overlappingThings.Length > 0)
             {
@@ -148,15 +147,14 @@ public class TreasureHunter : MonoBehaviour
 
     void triggerTrap()
     {
-        centerPoint.text = "TRAP TRIGGERED";
         int timer = 0;
-        while (timer < 100)
-        {
-            // myCam.Move(Vector3.up * 10);
-            //myCam.gameObject.transform.position = myCam.gameObject.transform.position + new Vector3(0, 1, 0);
-            centerPoint.text = "we're soarin. flyin. for:\n" + timer + " seconds";
-            timer++;
-        }
+        int speed = 10;
+        scoreText.text = "OH NO.";
+        float originalJumpForce = player.JumpForce;
+        player.JumpForce = 30;
+        player.Jump();
+        player.JumpForce = originalJumpForce;
+
         trapTriggered = true;
     }
 

@@ -1325,6 +1325,18 @@ MonoBehaviour:
   collectibles:
     m_keys: []
     m_values: 
+--- !u!114 &1269344996 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 224145532}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269344992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0950df82e7936c84983497630bde5b54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &1269344999
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1354,12 +1366,13 @@ MonoBehaviour:
   oVRCameraRig: {fileID: 0}
   oVRManager: {fileID: 0}
   oVRHeadsetEmulator: {fileID: 0}
+  player: {fileID: 1269344996}
   myCam: {fileID: 307420019}
   leftPointerObject: {fileID: 323763989}
   rightPointerObject: {fileID: 1854009748}
   inventory: {fileID: 1269344993}
   totalScore: 0
-  trapTreasure: {fileID: 0}
+  trapTreasure: {fileID: 1528932017}
   scoreText: {fileID: 1421930644}
   centerPoint: {fileID: 1964372861}
   collectiblesMask:
@@ -1757,6 +1770,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8481ee91f98f3499b96edd464fd73e9f, type: 3}
+--- !u!114 &1528932017 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4553906212406874951, guid: 2f9738ccd9e5f44cc998d9a93f246d38,
+    type: 3}
+  m_PrefabInstance: {fileID: 13762688}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b854e46d7f804768aedb80af058c131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1609513213
 GameObject:
   m_ObjectHideFlags: 0
