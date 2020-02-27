@@ -84,7 +84,7 @@ public class TreasureHunter : MonoBehaviour
                 //centerPoint.text = "thingIGrabbed is:\n\t" + thingIGrabbed + "\ntrapTreasure is:\n\t" + trapTreasure;
                 if ((thingIGrabbed == trapTreasure) && !(trapTriggered))
                 {
-                   // triggerTrap();
+                    triggerTrap();
                 }
             }
 
@@ -96,6 +96,8 @@ public class TreasureHunter : MonoBehaviour
             {
                 letGo();
             }
+        } else if (trapTriggered) { //myCam.transform.position += new Vector3(0, 1, 1);
+            player.Jump();
         }
     }
 
@@ -149,12 +151,11 @@ public class TreasureHunter : MonoBehaviour
 
     void triggerTrap()
     {
-        int timer = 0;
         scoreText.text = "OH NO.";
         float originalJumpForce = player.JumpForce;
         float originalGravity = player.GravityModifier;
-        //player.JumpForce = 30;
-        player.GravityModifier = 0;
+        player.JumpForce = 0.5f;
+        player.GravityModifier = 0.1f;
         player.Jump();
         //player.JumpForce = originalJumpForce;
 
