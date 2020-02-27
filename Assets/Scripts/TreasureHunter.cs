@@ -31,6 +31,7 @@ public class TreasureHunter : MonoBehaviour
     int numberOfItemsCollected = 0;
     bool trapTriggered = false;
     public CollectibleTreasure trapTreasure;
+    int winScore = 40;
 
     //Text fields
     public TextMesh scoreText;
@@ -83,7 +84,7 @@ public class TreasureHunter : MonoBehaviour
                 //centerPoint.text = "thingIGrabbed is:\n\t" + thingIGrabbed + "\ntrapTreasure is:\n\t" + trapTreasure;
                 if ((thingIGrabbed == trapTreasure) && !(trapTriggered))
                 {
-                    triggerTrap();
+                   // triggerTrap();
                 }
             }
 
@@ -143,17 +144,19 @@ public class TreasureHunter : MonoBehaviour
         }
         scoreTextUpdate += "TOTAL SCORE: " + totalScore;
         scoreText.text = scoreTextUpdate;
+        if (totalScore == winScore) { centerPoint.text = "YOU WIN!"; }
     }
 
     void triggerTrap()
     {
         int timer = 0;
-        int speed = 10;
         scoreText.text = "OH NO.";
         float originalJumpForce = player.JumpForce;
-        player.JumpForce = 30;
+        float originalGravity = player.GravityModifier;
+        //player.JumpForce = 30;
+        player.GravityModifier = 0;
         player.Jump();
-        player.JumpForce = originalJumpForce;
+        //player.JumpForce = originalJumpForce;
 
         trapTriggered = true;
     }
