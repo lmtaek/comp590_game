@@ -32,7 +32,7 @@ public class TreasureHunter : MonoBehaviour
     int numberOfItemsCollected = 0;
     bool trapTriggered = false;
     public CollectibleTreasure trapTreasure;
-    int winScore = 40;
+    int winScore = 70;
 
     //Text fields
     public TextMesh scoreText;
@@ -73,7 +73,7 @@ public class TreasureHunter : MonoBehaviour
                 addToInventory(prefab);
                 Destroy(hitObject);
             }
-            triggerTrap();
+            //triggerTrap();
         }
         else if (OVRInput.GetDown(OVRInput.RawButton.RHandTrigger))
         {
@@ -83,7 +83,6 @@ public class TreasureHunter : MonoBehaviour
                 attachGameObjectToAChildGameObject(overlappingThings[0].gameObject, rightPointerObject, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, AttachmentRule.KeepWorld, true);
                 //I'm not bothering to check for nullity because layer mask should ensure I only collect collectibles.
                 thingIGrabbed = overlappingThings[0].gameObject.GetComponent<CollectibleTreasure>();
-                //centerPoint.text = "thingIGrabbed is:\n\t" + thingIGrabbed + "\ntrapTreasure is:\n\t" + trapTreasure;
                 if ((thingIGrabbed == trapTreasure) && !(trapTriggered))
                 {
                     triggerTrap();
