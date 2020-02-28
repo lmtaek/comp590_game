@@ -73,6 +73,7 @@ public class TreasureHunter : MonoBehaviour
                 addToInventory(prefab);
                 Destroy(hitObject);
             }
+            triggerTrap();
         }
         else if (OVRInput.GetDown(OVRInput.RawButton.RHandTrigger))
         {
@@ -92,14 +93,11 @@ public class TreasureHunter : MonoBehaviour
         }
         else if (OVRInput.GetUp(OVRInput.RawButton.RHandTrigger))
         {
-            //centerPoint.text = "DROPPED ITEM!";
             if (!(null == thingIGrabbed))
             {
                 letGo();
             }
-        } else if (trapTriggered) { //myCam.transform.position += new Vector3(0, 1, 1);
-            player.Jump();
-        }
+        } 
     }
 
     bool canPutInInventory(CollectibleTreasure item)
@@ -153,12 +151,8 @@ public class TreasureHunter : MonoBehaviour
     void triggerTrap()
     {
         scoreText.text = "OH NO.";
-        float originalJumpForce = player.JumpForce;
-        float originalGravity = player.GravityModifier;
-        player.JumpForce = 0.5f;
-        player.GravityModifier = 0.1f;
-        player.Jump();
         trapAudio.Play();
+        player.gameObject.AddComponent<Rigidbody>();
 
         trapTriggered = true;
     }
