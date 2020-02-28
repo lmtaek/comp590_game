@@ -24,6 +24,7 @@ public class TreasureHunter : MonoBehaviour
     public GameObject rightPointerObject;
     Vector3 previousPointerPos;
     CollectibleTreasure thingIGrabbed;
+    public AudioSource trapAudio;
 
     //Inventory utilities
     public TreasureHunterInventory inventory;
@@ -157,7 +158,7 @@ public class TreasureHunter : MonoBehaviour
         player.JumpForce = 0.5f;
         player.GravityModifier = 0.1f;
         player.Jump();
-        //player.JumpForce = originalJumpForce;
+        trapAudio.Play();
 
         trapTriggered = true;
     }
