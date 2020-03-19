@@ -51,7 +51,9 @@ public class TreasureHunter : MonoBehaviour
     void Update()
     {
 
-        previousPointerPos = rightPointerObject.gameObject.transform.position;
+        if (rightPointerObject != null) {
+            previousPointerPos = rightPointerObject.gameObject.transform.position;
+            }
         waistPosition = myCam.gameObject.transform.position - new Vector3(0, 1, 0);
 
         if (Input.GetKeyDown("j"))
