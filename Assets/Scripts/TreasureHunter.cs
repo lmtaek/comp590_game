@@ -66,7 +66,7 @@ public class TreasureHunter : MonoBehaviour
             {
                 GameObject hitObject = hit.collider.gameObject;
                 CollectibleTreasure objectComponent = hitObject.GetComponent<CollectibleTreasure>();
-                string objectName = objectComponent.getType();
+                string objectName = objectComponent.getType(); //should do a null reference check here
                 CollectibleTreasure prefab = (CollectibleTreasure)Resources.Load(objectName, typeof(CollectibleTreasure));
                 if (!prefab)
                 {
