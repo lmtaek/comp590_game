@@ -62,7 +62,7 @@ public class TreasureHunter : MonoBehaviour
             Vector3 originPosition = myCam.gameObject.transform.position;
             Vector3 rayDirection = myCam.gameObject.transform.forward;
             RaycastHit hit;
-            if (Physics.Raycast(originPosition, rayDirection, out hit))
+            if (Physics.Raycast(originPosition, rayDirection, out hit, 1))
             {
                 GameObject hitObject = hit.collider.gameObject;
                 CollectibleTreasure objectComponent = hitObject.GetComponent<CollectibleTreasure>();
@@ -146,7 +146,7 @@ public class TreasureHunter : MonoBehaviour
         }
         scoreTextUpdate += "TOTAL SCORE: " + totalScore;
         scoreText.text = scoreTextUpdate;
-        if (totalScore == winScore) { centerPoint.text = "YOU WIN!"; }
+        //if (totalScore == winScore) { centerPoint.text = "YOU WIN!"; }
     }
 
     void triggerTrap()
