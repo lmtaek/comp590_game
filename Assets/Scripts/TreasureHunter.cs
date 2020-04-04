@@ -32,7 +32,7 @@ public class TreasureHunter : MonoBehaviour
     int numberOfItemsCollected = 0;
     bool trapTriggered = false;
     public CollectibleTreasure trapTreasure;
-    int winScore = 70;
+    int winScore = 100;
 
     //Text fields
     public TextMesh scoreText;
@@ -146,7 +146,7 @@ public class TreasureHunter : MonoBehaviour
         }
         scoreTextUpdate += "TOTAL SCORE: " + totalScore;
         scoreText.text = scoreTextUpdate;
-        //if (totalScore == winScore) { centerPoint.text = "YOU WIN!"; }
+        if (totalScore == winScore) { centerPoint.text = "YOU WIN!"; }
     }
 
     void triggerTrap()
