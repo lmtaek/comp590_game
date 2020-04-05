@@ -228,8 +228,8 @@ MonoBehaviour:
   occlusionMethod: 0
   sourceRadius: 1
   directMixLevel: 1
-  reflections: 1
-  indirectBinaural: 1
+  reflections: 0
+  indirectBinaural: 0
   indirectMixLevel: 1
   simulationType: 0
   uniqueIdentifier: 

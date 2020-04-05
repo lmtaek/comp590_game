@@ -122,10 +122,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Preset: 11
   Value:
-    LowFreqAbsorption: 0.9
-    MidFreqAbsorption: 0.9
-    HighFreqAbsorption: 0.9
-    Scattering: 0.05
+    LowFreqAbsorption: 0.8
+    MidFreqAbsorption: 0.8
+    HighFreqAbsorption: 0.8
+    Scattering: 0.1
     LowFreqTransmission: 0.015
-    MidFreqTransmission: 0
-    HighFreqTransmission: 0
+    MidFreqTransmission: 0.015
+    HighFreqTransmission: 0.015
