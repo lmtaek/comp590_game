@@ -1413,6 +1413,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 793cf896da7d14a94ad197f7f0b85932, type: 3}
+    - target: {fileID: 4048940153199439800, guid: e3d40708220334be8bf17ba90920e068,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3d40708220334be8bf17ba90920e068, type: 3}
 --- !u!1001 &559841580
@@ -1635,6 +1640,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 6c8df2a1f8946466892672e23a9c6be0, type: 3}
+    - target: {fileID: 4048940153199439800, guid: e3d40708220334be8bf17ba90920e068,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3d40708220334be8bf17ba90920e068, type: 3}
 --- !u!4 &586478796 stripped
@@ -2023,7 +2033,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b1b5e569204354353ae59a1537b6a2da, type: 2}
+  - {fileID: 2100000, guid: b825d518262c2453b9c06573f9b21658, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2343,7 +2353,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 53b4534908f8f324d8ffe0fc5fa5a31f, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4294967295
 --- !u!23 &1010647610
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3200,7 +3210,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 7e89e80fce8fc06478c726f2f3de7863, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4294967295
 --- !u!23 &1421930645
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4486,7 +4496,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278207487
+    rgba: 4294967295
 --- !u!23 &1964372862
 MeshRenderer:
   m_ObjectHideFlags: 0
