@@ -18,6 +18,7 @@ public class TreasureHunter : MonoBehaviour
     public OVRPlayerController player;
     public Camera myCam;
     Vector3 waistPosition;
+    float timer = 0.0f;
 
     //Variables to reference for user's controllers and interactible objects
     public GameObject leftPointerObject;
@@ -50,6 +51,8 @@ public class TreasureHunter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        timer += Time.deltaTime;
 
         if (rightPointerObject != null) {
             previousPointerPos = rightPointerObject.gameObject.transform.position;
@@ -146,7 +149,7 @@ public class TreasureHunter : MonoBehaviour
         }
         scoreTextUpdate += "TOTAL SCORE: " + totalScore;
         scoreText.text = scoreTextUpdate;
-        if (totalScore == winScore) { centerPoint.text = "YOU WIN!"; }
+        if (totalScore == winScore) { centerPoint.text = "YOU WIN!\nTIME: " + timer + " secs"; }
     }
 
     void triggerTrap()

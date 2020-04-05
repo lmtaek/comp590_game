@@ -1416,7 +1416,7 @@ PrefabInstance:
     - target: {fileID: 4048940153199439800, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_Volume
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3d40708220334be8bf17ba90920e068, type: 3}
@@ -1643,7 +1643,7 @@ PrefabInstance:
     - target: {fileID: 4048940153199439800, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_Volume
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3d40708220334be8bf17ba90920e068, type: 3}
@@ -2264,16 +2264,16 @@ MonoBehaviour:
     LowFreqTransmission: 0.1
     MidFreqTransmission: 0.05
     HighFreqTransmission: 0.03
-  simulationPreset: 0
+  simulationPreset: 2
   simulationValue:
     OcclusionSamples: 128
-    RealtimeRays: 4096
+    RealtimeRays: 16384
     RealtimeSecondaryRays: 1024
-    RealtimeBounces: 2
+    RealtimeBounces: 8
     RealtimeThreadsPercentage: 5
-    BakeRays: 16384
+    BakeRays: 65536
     BakeSecondaryRays: 4096
-    BakeBounces: 32
+    BakeBounces: 128
     BakeThreadsPercentage: 5
     Duration: 1
     AmbisonicsOrder: 1
@@ -3258,7 +3258,7 @@ Transform:
   m_GameObject: {fileID: 1421930643}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 4, z: 4.799999}
-  m_LocalScale: {x: 0.40000018, y: 0.40000036, z: 0.40000036}
+  m_LocalScale: {x: 0.3000002, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 744837754}
   m_RootOrder: 1
