@@ -40,12 +40,21 @@ public class TreasureHunter : MonoBehaviour
     public TextMesh centerPoint;
     public LayerMask collectiblesMask;
 
+    int currentTreasureIndex;
+    public CollectibleTreasure[] treasureItems;
+
     // Start is called before the first frame update
     void Start()
     {
         oVRCameraRig = this.gameObject.GetComponent<OVRCameraRig>();
         oVRManager = this.gameObject.GetComponent<OVRManager>();
         oVRHeadsetEmulator = this.gameObject.GetComponent<OVRHeadsetEmulator>();
+
+        currentTreasureIndex = 0;
+        foreach (CollectibleTreasure treasure in treasureItems) {
+            treasure.gameObject.active = false;
+        }
+        treasureItems[currentTreasureIndex].gameObject.active = true;
     }
 
     // Update is called once per frame
@@ -77,6 +86,8 @@ public class TreasureHunter : MonoBehaviour
                 }
                 addToInventory(prefab);
                 Destroy(hitObject);
+                updateTreasure();
+                treasureItems[currentTreasureIndex].gameObject.active = true;
             }
             //triggerTrap();
         }
@@ -101,6 +112,12 @@ public class TreasureHunter : MonoBehaviour
             {
                 letGo();
             }
+        } 
+    }
+
+    void updateTreasure() {
+        if (currentTreasureIndex < treasureItems.Length - 1) {
+            currentTreasureIndex++;
         } 
     }
 
