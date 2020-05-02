@@ -33,7 +33,7 @@ public class TreasureHunter : MonoBehaviour
     int numberOfItemsCollected = 0;
     bool trapTriggered = false;
     public CollectibleTreasure trapTreasure;
-    int winScore = 100;
+    int winScore = 90;
 
     //Text fields
     public TextMesh scoreText;

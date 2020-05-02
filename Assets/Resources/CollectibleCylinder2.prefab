@@ -130,8 +130,8 @@ AudioSource:
   Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
-  MinDistance: 5
+  DopplerLevel: 0.4
+  MinDistance: 2
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -197,7 +197,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1.1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -222,11 +222,11 @@ MonoBehaviour:
   directBinaural: 1
   interpolation: 1
   physicsBasedAttenuation: 1
-  airAbsorption: 0
+  airAbsorption: 1
   dipoleWeight: 0
   dipolePower: 0
   occlusionMode: 3
-  occlusionMethod: 0
+  occlusionMethod: 1
   sourceRadius: 1
   directMixLevel: 1
   reflections: 1

@@ -6,10 +6,11 @@ public class ViewMap : MonoBehaviour
 {
 
     public GameObject map;
-    public bool isMapOpen = false;
+    public bool isMapOpen;
 
     void Start() {
-        map.gameObject.active = false;
+        map.gameObject.active = true;
+        isMapOpen = true;
     }
 
     // Update is called once per frame

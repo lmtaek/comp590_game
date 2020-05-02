@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 41181156}
   m_Layer: 0
-  m_Name: Cinderblock Room Large
+  m_Name: Concrete Room Large
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -294,6 +294,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1321406769}
     m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -376,32 +411,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.05
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.08
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.002
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.001
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -482,7 +522,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+      objectReference: {fileID: 2100000, guid: 9bd241fcf88ee44f8b9193abb885c793, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &73568300 stripped
@@ -501,7 +541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 81956520}
   m_Layer: 0
-  m_Name: Wood Room Small
+  m_Name: Gravel Room Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -523,8 +563,9 @@ Transform:
   - {fileID: 2110363129}
   - {fileID: 1395329498}
   - {fileID: 1017284253}
+  - {fileID: 1900496236}
   m_Father: {fileID: 373232179}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &103999297
 PrefabInstance:
@@ -536,37 +577,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.11
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.07
+      value: 0.031
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.014
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.005
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -581,7 +622,7 @@ PrefabInstance:
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.5
+      value: -22.2
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -642,7 +683,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c5de2de29649946caa67f57a9825cfd6, type: 2}
+      objectReference: {fileID: 2100000, guid: a30b905d4f8f9425093fdf740a02ed42, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &103999298 stripped
@@ -661,7 +702,7 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 3
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -691,7 +732,7 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.011
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -826,7 +867,7 @@ PrefabInstance:
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -969,7 +1010,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+      objectReference: {fileID: 2100000, guid: b825d518262c2453b9c06573f9b21658, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!1001 &139362713
@@ -1112,32 +1153,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.05
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.08
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.002
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.001
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -1208,7 +1254,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+      objectReference: {fileID: 2100000, guid: 9bd241fcf88ee44f8b9193abb885c793, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &165773617 stripped
@@ -1272,7 +1318,7 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 3
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -1302,7 +1348,7 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.011
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -1402,7 +1448,7 @@ GameObject:
   - component: {fileID: 195865739}
   - component: {fileID: 195865738}
   m_Layer: 0
-  m_Name: Brick Floor Small
+  m_Name: Glass Floor Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1453,7 +1499,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: eded406ac811741c5a8a5142b2043467, type: 2}
+  - {fileID: 2100000, guid: b45a972084689481e90fb3683f2e0bda, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1494,15 +1540,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 1
+  Preset: 6
   Value:
-    LowFreqAbsorption: 0.03
-    MidFreqAbsorption: 0.04
-    HighFreqAbsorption: 0.07
+    LowFreqAbsorption: 0.06
+    MidFreqAbsorption: 0.03
+    HighFreqAbsorption: 0.02
     Scattering: 0.05
-    LowFreqTransmission: 0.015
-    MidFreqTransmission: 0.015
-    HighFreqTransmission: 0.015
+    LowFreqTransmission: 0.06
+    MidFreqTransmission: 0.044
+    HighFreqTransmission: 0.011
 --- !u!114 &195865739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1773,7 +1819,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+      objectReference: {fileID: 2100000, guid: b825d518262c2453b9c06573f9b21658, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!1001 &234738631
@@ -1932,32 +1978,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.05
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.08
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.002
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.001
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -2033,7 +2084,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+      objectReference: {fileID: 2100000, guid: 9bd241fcf88ee44f8b9193abb885c793, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &276621127 stripped
@@ -2154,6 +2205,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1321406769}
     m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2332,6 +2418,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1321406769}
     m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2430,7 +2551,7 @@ PrefabInstance:
     - target: {fileID: 1245088319026355051, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_Name
-      value: SmallCinder
+      value: SmallCarpet
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -2470,7 +2591,7 @@ PrefabInstance:
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -2517,32 +2638,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.05
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.08
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.002
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.001
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -2613,7 +2739,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+      objectReference: {fileID: 2100000, guid: 9bd241fcf88ee44f8b9193abb885c793, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &341704127 stripped
@@ -2637,37 +2763,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.2
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqAbsorption
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqTransmission
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.025
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.01
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -2738,7 +2864,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6fa48c2a126d0d74e8bb671b62e8cb1b, type: 2}
+      objectReference: {fileID: 2100000, guid: bddf0afe4c4d6475389d9330ba143927, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &347345826 stripped
@@ -2797,7 +2923,7 @@ PrefabInstance:
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -3069,98 +3195,10 @@ Transform:
   - {fileID: 1419021284}
   - {fileID: 1580343612}
   - {fileID: 1437041505}
-  - {fileID: 2008586323}
   - {fileID: 81956520}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &384441049
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1818164753}
-    m_Modifications:
-    - target: {fileID: 1245088319026355051, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_Name
-      value: SmallTile
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 33.088886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.5199909
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e3d40708220334be8bf17ba90920e068, type: 3}
---- !u!4 &384441050 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
-    type: 3}
-  m_PrefabInstance: {fileID: 384441049}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &384441051 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1245088319026355050, guid: e3d40708220334be8bf17ba90920e068,
-    type: 3}
-  m_PrefabInstance: {fileID: 384441049}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b854e46d7f804768aedb80af058c131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &404109295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3171,7 +3209,7 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 3
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3201,7 +3239,7 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.011
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3566,37 +3604,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.2
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqAbsorption
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqTransmission
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.025
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.01
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3667,7 +3705,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6fa48c2a126d0d74e8bb671b62e8cb1b, type: 2}
+      objectReference: {fileID: 2100000, guid: bddf0afe4c4d6475389d9330ba143927, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &548929247 stripped
@@ -3683,6 +3721,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1580343612}
     m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.044
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.011
+      objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3757,7 +3830,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: eded406ac811741c5a8a5142b2043467, type: 2}
+      objectReference: {fileID: 2100000, guid: b45a972084689481e90fb3683f2e0bda, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &570282255 stripped
@@ -3872,7 +3945,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+      objectReference: {fileID: 2100000, guid: b825d518262c2453b9c06573f9b21658, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!1001 &590383353
@@ -4095,7 +4168,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+      objectReference: {fileID: 2100000, guid: b825d518262c2453b9c06573f9b21658, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!1001 &604470790
@@ -4105,6 +4178,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1580343612}
     m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.044
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.011
+      objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4179,7 +4287,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: eded406ac811741c5a8a5142b2043467, type: 2}
+      objectReference: {fileID: 2100000, guid: b45a972084689481e90fb3683f2e0bda, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &604470791 stripped
@@ -4187,131 +4295,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
     type: 3}
   m_PrefabInstance: {fileID: 604470790}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &640270718
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2008586323}
-    m_Modifications:
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Preset
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqAbsorption
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.MidFreqAbsorption
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqAbsorption
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqTransmission
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.MidFreqTransmission
-      value: 0.044
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqTransmission
-      value: 0.011
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -35.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -11.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2919191587505419353, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2950565788218895330, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5c3d5738fa2d6483bb8a2af0a6f50a66, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
---- !u!4 &640270719 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-    type: 3}
-  m_PrefabInstance: {fileID: 640270718}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &672726806
 GameObject:
@@ -4329,7 +4312,7 @@ GameObject:
   - component: {fileID: 672726813}
   - component: {fileID: 672726812}
   m_Layer: 0
-  m_Name: Metal Floor Small
+  m_Name: Rock Floor Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4380,7 +4363,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7615d9f489209084094103007bd07041, type: 2}
+  - {fileID: 2100000, guid: bddf0afe4c4d6475389d9330ba143927, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4479,15 +4462,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 9
+  Preset: 10
   Value:
-    LowFreqAbsorption: 0.2
-    MidFreqAbsorption: 0.07
-    HighFreqAbsorption: 0.06
+    LowFreqAbsorption: 0.13
+    MidFreqAbsorption: 0.2
+    HighFreqAbsorption: 0.24
     Scattering: 0.05
-    LowFreqTransmission: 0.2
-    MidFreqTransmission: 0.025
-    HighFreqTransmission: 0.01
+    LowFreqTransmission: 0.015
+    MidFreqTransmission: 0.002
+    HighFreqTransmission: 0.001
 --- !u!114 &672726813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4512,32 +4495,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.05
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.08
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.002
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.001
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -4608,7 +4596,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+      objectReference: {fileID: 2100000, guid: 9bd241fcf88ee44f8b9193abb885c793, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &673715140 stripped
@@ -4724,13 +4712,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 1
+  Preset: 11
   Value:
-    LowFreqAbsorption: 0.03
-    MidFreqAbsorption: 0.04
-    HighFreqAbsorption: 0.07
+    LowFreqAbsorption: 0.2
+    MidFreqAbsorption: 0.3
+    HighFreqAbsorption: 0.4
     Scattering: 0.05
-    LowFreqTransmission: 0.015
+    LowFreqTransmission: 0.2
     MidFreqTransmission: 0.015
     HighFreqTransmission: 0.015
 --- !u!114 &678402478
@@ -4762,37 +4750,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.2
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqAbsorption
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqTransmission
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.025
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.01
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -4868,7 +4856,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6fa48c2a126d0d74e8bb671b62e8cb1b, type: 2}
+      objectReference: {fileID: 2100000, guid: bddf0afe4c4d6475389d9330ba143927, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &701419399 stripped
@@ -4891,7 +4879,7 @@ PrefabInstance:
     - target: {fileID: 1245088319026355051, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_Name
-      value: SmallMetal
+      value: SmallRock
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -4931,7 +4919,7 @@ PrefabInstance:
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -5152,131 +5140,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 773691052}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &786203183
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2008586323}
-    m_Modifications:
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Preset
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqAbsorption
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.MidFreqAbsorption
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqAbsorption
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqTransmission
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.MidFreqTransmission
-      value: 0.044
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqTransmission
-      value: 0.011
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -40.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -13.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2919191587505419353, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2950565788218895330, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5c3d5738fa2d6483bb8a2af0a6f50a66, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
---- !u!4 &786203184 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-    type: 3}
-  m_PrefabInstance: {fileID: 786203183}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &797060392
 GameObject:
   m_ObjectHideFlags: 0
@@ -5457,7 +5320,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b825d518262c2453b9c06573f9b21658, type: 2}
+  - {fileID: 2100000, guid: 8d8daae58c69eef4e8ac3d976703af6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5605,6 +5468,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1580343612}
     m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.044
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.011
+      objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5684,7 +5582,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: eded406ac811741c5a8a5142b2043467, type: 2}
+      objectReference: {fileID: 2100000, guid: b45a972084689481e90fb3683f2e0bda, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &974262982 stripped
@@ -5820,7 +5718,7 @@ PrefabInstance:
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -5883,7 +5781,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010647607}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1, y: -4, z: 4.799999}
+  m_LocalPosition: {x: -2, y: -4, z: 4.799999}
   m_LocalScale: {x: 0.15000004, y: 0.15000007, z: 0.15000007}
   m_Children: []
   m_Father: {fileID: 744837754}
@@ -5959,37 +5857,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.11
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.07
+      value: 0.031
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.014
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.005
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -6004,7 +5902,7 @@ PrefabInstance:
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.9
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -6049,7 +5947,7 @@ PrefabInstance:
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -6070,7 +5968,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c5de2de29649946caa67f57a9825cfd6, type: 2}
+      objectReference: {fileID: 2100000, guid: a30b905d4f8f9425093fdf740a02ed42, type: 2}
     - target: {fileID: 8121972830872736522, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_Enabled
@@ -6216,6 +6114,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1580343612}
     m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.044
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.011
+      objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6290,7 +6223,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: eded406ac811741c5a8a5142b2043467, type: 2}
+      objectReference: {fileID: 2100000, guid: b45a972084689481e90fb3683f2e0bda, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &1029664264 stripped
@@ -6327,7 +6260,7 @@ PrefabInstance:
     - target: {fileID: 1245088319026355051, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_Name
-      value: SmallBrick
+      value: SmallGlass
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -6419,37 +6352,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.2
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqAbsorption
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqTransmission
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.025
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.01
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -6530,7 +6463,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6fa48c2a126d0d74e8bb671b62e8cb1b, type: 2}
+      objectReference: {fileID: 2100000, guid: bddf0afe4c4d6475389d9330ba143927, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &1130611459 stripped
@@ -6538,136 +6471,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
     type: 3}
   m_PrefabInstance: {fileID: 1130611458}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1166550517
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2008586323}
-    m_Modifications:
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Preset
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqAbsorption
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.MidFreqAbsorption
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqAbsorption
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqTransmission
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.MidFreqTransmission
-      value: 0.044
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqTransmission
-      value: 0.011
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -35.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 8.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -13.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2919191587505419353, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2950565788218895330, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5c3d5738fa2d6483bb8a2af0a6f50a66, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
---- !u!4 &1166550518 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1166550517}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1175992566 stripped
 Transform:
@@ -6766,6 +6569,99 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: 0, z: 0}
+--- !u!1 &1246914097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1246914098}
+  - component: {fileID: 1246914100}
+  - component: {fileID: 1246914099}
+  m_Layer: 0
+  m_Name: Help
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1246914098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246914097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.5, y: 3.5, z: 3.9954488}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_Children: []
+  m_Father: {fileID: 744837754}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1246914099
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246914097}
+  m_Text: "HELP:\n- Tap 'J' while standing in front\n   of object to collect it\n-
+    Tap 'K' to view/hide map\n- Use WASD to walk & mouse to rotate"
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: 7e89e80fce8fc06478c726f2f3de7863, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1246914100
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246914097}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7e89e80fce8fc06478c726f2f3de7863, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1001 &1248014128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6987,7 +6883,6 @@ MonoBehaviour:
   - {fileID: 334799199}
   - {fileID: 356171480}
   - {fileID: 129590233}
-  - {fileID: 384441051}
   - {fileID: 1700310523}
   - {fileID: 1127384329}
   - {fileID: 1409751266}
@@ -7112,7 +7007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 3
+  Preset: 11
   Value:
     LowFreqAbsorption: 0.01
     MidFreqAbsorption: 0.02
@@ -7120,7 +7015,7 @@ MonoBehaviour:
     Scattering: 0.05
     LowFreqTransmission: 0.06
     MidFreqTransmission: 0.044
-    HighFreqTransmission: 0.011
+    HighFreqTransmission: 0.3
 --- !u!1 &1321406768
 GameObject:
   m_ObjectHideFlags: 0
@@ -7157,136 +7052,6 @@ Transform:
   m_Father: {fileID: 373232179}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1384776878
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1384776879}
-  - component: {fileID: 1384776882}
-  - component: {fileID: 1384776881}
-  - component: {fileID: 1384776880}
-  - component: {fileID: 1384776884}
-  - component: {fileID: 1384776883}
-  m_Layer: 0
-  m_Name: Tile Floor Small
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1384776879
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384776878}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -35.550507, y: -8.25, z: -13.529255}
-  m_LocalScale: {x: 1, y: 20, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 2008586323}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1384776880
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384776878}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1384776881
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384776878}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 5c3d5738fa2d6483bb8a2af0a6f50a66, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1384776882
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384776878}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1384776883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384776878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79e99846fd75c4438917229c144155a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TerrainSimplificationLevel: 0
-  exportAllChildren: 0
---- !u!114 &1384776884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384776878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Preset: 3
-  Value:
-    LowFreqAbsorption: 0.01
-    MidFreqAbsorption: 0.02
-    HighFreqAbsorption: 0.02
-    Scattering: 0.05
-    LowFreqTransmission: 0.06
-    MidFreqTransmission: 0.044
-    HighFreqTransmission: 0.011
 --- !u!1 &1395329497
 GameObject:
   m_ObjectHideFlags: 0
@@ -7302,7 +7067,7 @@ GameObject:
   - component: {fileID: 1395329503}
   - component: {fileID: 1395329502}
   m_Layer: 0
-  m_Name: Wood Floor Small
+  m_Name: Gravel Floor Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7316,8 +7081,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395329497}
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -35.550507, y: -8.25, z: -13.729255}
-  m_LocalScale: {x: 1, y: 20, z: 0.5}
+  m_LocalPosition: {x: -35.550507, y: -8.25, z: -16.5}
+  m_LocalScale: {x: 1, y: 20, z: 1.2}
   m_Children: []
   m_Father: {fileID: 81956520}
   m_RootOrder: 3
@@ -7353,7 +7118,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1dc829186ab218b468d2812eaab4f22f, type: 2}
+  - {fileID: 2100000, guid: a30b905d4f8f9425093fdf740a02ed42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7394,15 +7159,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 8
+  Preset: 4
   Value:
-    LowFreqAbsorption: 0.11
-    MidFreqAbsorption: 0.07
-    HighFreqAbsorption: 0.06
+    LowFreqAbsorption: 0.6
+    MidFreqAbsorption: 0.7
+    HighFreqAbsorption: 0.8
     Scattering: 0.05
-    LowFreqTransmission: 0.07
-    MidFreqTransmission: 0.014
-    HighFreqTransmission: 0.005
+    LowFreqTransmission: 0.031
+    MidFreqTransmission: 0.012
+    HighFreqTransmission: 0.008
 --- !u!114 &1395329503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7514,12 +7279,12 @@ PrefabInstance:
     - target: {fileID: 1245088319026355051, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_Name
-      value: SmallWood
+      value: SmallGravel
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.04949
+      value: 33.2
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -7529,7 +7294,7 @@ PrefabInstance:
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.829255
+      value: -4.2
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -7554,7 +7319,7 @@ PrefabInstance:
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1245088319026355054, guid: e3d40708220334be8bf17ba90920e068,
         type: 3}
@@ -7606,7 +7371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1419021284}
   m_Layer: 0
-  m_Name: Cinderblock Room Small
+  m_Name: Carpet Room Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7718,7 +7483,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421930643}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 4, z: 4.799999}
+  m_LocalPosition: {x: 2, y: 4, z: 4.799999}
   m_LocalScale: {x: 0.3000002, y: 0.3, z: 0.3}
   m_Children: []
   m_Father: {fileID: 744837754}
@@ -7734,7 +7499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437041505}
   m_Layer: 0
-  m_Name: Metal Room Small
+  m_Name: Rock Room Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7767,6 +7532,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1321406769}
     m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7964,131 +7764,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1512370663}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1513040542
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2008586323}
-    m_Modifications:
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Preset
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqAbsorption
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.MidFreqAbsorption
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqAbsorption
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqTransmission
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.MidFreqTransmission
-      value: 0.044
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqTransmission
-      value: 0.011
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -35.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -16.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2919191587505419353, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_Name
-      value: Wall (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2950565788218895330, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5c3d5738fa2d6483bb8a2af0a6f50a66, type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
---- !u!4 &1513040543 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1513040542}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1530697815
 GameObject:
   m_ObjectHideFlags: 0
@@ -8104,7 +7779,7 @@ GameObject:
   - component: {fileID: 1530697821}
   - component: {fileID: 1530697820}
   m_Layer: 0
-  m_Name: Cinder Floor Small
+  m_Name: Carpet Floor Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8155,7 +7830,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+  - {fileID: 2100000, guid: 9bd241fcf88ee44f8b9193abb885c793, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8196,15 +7871,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 2
+  Preset: 5
   Value:
-    LowFreqAbsorption: 0.05
-    MidFreqAbsorption: 0.07
-    HighFreqAbsorption: 0.08
+    LowFreqAbsorption: 0.24
+    MidFreqAbsorption: 0.69
+    HighFreqAbsorption: 0.73
     Scattering: 0.05
-    LowFreqTransmission: 0.015
-    MidFreqTransmission: 0.002
-    HighFreqTransmission: 0.001
+    LowFreqTransmission: 0.02
+    MidFreqTransmission: 0.005
+    HighFreqTransmission: 0.003
 --- !u!114 &1530697821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8226,6 +7901,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1580343612}
     m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.044
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.011
+      objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8300,7 +8010,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: eded406ac811741c5a8a5142b2043467, type: 2}
+      objectReference: {fileID: 2100000, guid: b45a972084689481e90fb3683f2e0bda, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &1542212486 stripped
@@ -8364,7 +8074,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 456816fa07dac4f91bb4f5c800570c9d, type: 3}
+  m_Texture: {fileID: 2800000, guid: 529faba72c2674f82b0b515f6549a45f, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -8389,37 +8099,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.11
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.07
+      value: 0.031
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.014
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.005
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -8495,7 +8205,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c5de2de29649946caa67f57a9825cfd6, type: 2}
+      objectReference: {fileID: 2100000, guid: a30b905d4f8f9425093fdf740a02ed42, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &1558426793 stripped
@@ -8629,7 +8339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1580343612}
   m_Layer: 0
-  m_Name: Brick Room Small
+  m_Name: Glass Room Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8670,7 +8380,7 @@ GameObject:
   - component: {fileID: 1582812003}
   - component: {fileID: 1582812002}
   m_Layer: 0
-  m_Name: Cinder Floor Large
+  m_Name: Concrete Floor Large
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8721,7 +8431,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+  - {fileID: 2100000, guid: b825d518262c2453b9c06573f9b21658, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9246,7 +8956,7 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 3
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -9276,7 +8986,7 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.011
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -9589,7 +9299,6 @@ Transform:
   - {fileID: 1409751265}
   - {fileID: 1127384328}
   - {fileID: 1700310522}
-  - {fileID: 384441050}
   - {fileID: 129590232}
   - {fileID: 356171479}
   - {fileID: 334799198}
@@ -9699,6 +9408,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1321406769}
     m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9771,6 +9515,131 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9eb87dbfc6c28dc40b100c0df9dffe74, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
+--- !u!1001 &1900496235
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 81956520}
+    m_Modifications:
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Preset
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqAbsorption
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqAbsorption
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.031
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.MidFreqTransmission
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.HighFreqTransmission
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919191587505419353, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_Name
+      value: Wall (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2950565788218895330, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a30b905d4f8f9425093fdf740a02ed42, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
+--- !u!4 &1900496236 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1900496235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1964372860
 GameObject:
   m_ObjectHideFlags: 0
@@ -9983,41 +9852,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1973122408}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2008586322
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2008586323}
-  m_Layer: 0
-  m_Name: Tile Room Small
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2008586323
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008586322}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -17.569931, y: 168.83707, z: -7.244203}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1513040543}
-  - {fileID: 640270719}
-  - {fileID: 786203184}
-  - {fileID: 1384776879}
-  - {fileID: 1166550518}
-  m_Father: {fileID: 373232179}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &2036085381
 GameObject:
   m_ObjectHideFlags: 0
@@ -10069,37 +9903,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.2
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.HighFreqAbsorption
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
-        type: 3}
-      propertyPath: Value.LowFreqTransmission
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
+      propertyPath: Value.HighFreqAbsorption
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
+      propertyPath: Value.LowFreqTransmission
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
+        type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.025
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.01
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -10170,7 +10004,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6fa48c2a126d0d74e8bb671b62e8cb1b, type: 2}
+      objectReference: {fileID: 2100000, guid: bddf0afe4c4d6475389d9330ba143927, type: 2}
     - target: {fileID: 8121972830872736522, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_Enabled
@@ -10306,7 +10140,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 02c684a5a201b40a4a0418558d9512d1, type: 2}
+      objectReference: {fileID: 2100000, guid: b825d518262c2453b9c06573f9b21658, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c30a34d1ed834cfe9ba3785433bfeb6, type: 3}
 --- !u!4 &2076149339 stripped
@@ -10325,7 +10159,7 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 3
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -10355,7 +10189,7 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.011
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -10487,37 +10321,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.11
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.07
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.07
+      value: 0.031
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.014
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.005
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -10532,7 +10366,7 @@ PrefabInstance:
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.9
+      value: -16.4
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -10577,7 +10411,7 @@ PrefabInstance:
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -10593,7 +10427,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c5de2de29649946caa67f57a9825cfd6, type: 2}
+      objectReference: {fileID: 2100000, guid: a30b905d4f8f9425093fdf740a02ed42, type: 2}
     - target: {fileID: 8121972830872736522, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: m_Enabled
