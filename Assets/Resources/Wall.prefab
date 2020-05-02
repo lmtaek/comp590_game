@@ -13,7 +13,9 @@ GameObject:
   - component: {fileID: 2950565788218895330}
   - component: {fileID: 6161207644383791364}
   - component: {fileID: 1790725528320497998}
-  - component: {fileID: 4773116965870268950}
+  - component: {fileID: 8121972830872736522}
+  - component: {fileID: -3485901676932005768}
+  - component: {fileID: -3093493120209478800}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -108,7 +110,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TerrainSimplificationLevel: 0
   exportAllChildren: 0
---- !u!114 &4773116965870268950
+--- !u!114 &8121972830872736522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919191587505419353}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abdaae8d2b81ba54498967f33610da0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filePathRelative: 
+  fileEnabled: 0
+  includeChildMeshes: 1
+--- !u!114 &-3485901676932005768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919191587505419353}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fef2cb49a5b4b46a3d1cbeaec4c932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  absorption:
+    selection: 2147483647
+    points: []
+  transmission:
+    selection: 2147483647
+    points: []
+  scattering:
+    selection: 2147483647
+    points: []
+  preset_: 0
+--- !u!114 &-3093493120209478800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,12 +159,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 11
+  Preset: 1
   Value:
-    LowFreqAbsorption: 0.8
-    MidFreqAbsorption: 0.8
-    HighFreqAbsorption: 0.8
-    Scattering: 0.1
-    LowFreqTransmission: 0.03
+    LowFreqAbsorption: 0.03
+    MidFreqAbsorption: 0.04
+    HighFreqAbsorption: 0.07
+    Scattering: 0.05
+    LowFreqTransmission: 0.015
     MidFreqTransmission: 0.015
     HighFreqTransmission: 0.015
