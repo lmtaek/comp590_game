@@ -264,15 +264,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 11
+  Preset: 0
   Value:
-    LowFreqAbsorption: 0.33
-    MidFreqAbsorption: 0.21
-    HighFreqAbsorption: 0.18
+    LowFreqAbsorption: 0.1
+    MidFreqAbsorption: 0.2
+    HighFreqAbsorption: 0.3
     Scattering: 0.05
-    LowFreqTransmission: 0.21
-    MidFreqTransmission: 0.042
-    HighFreqTransmission: 0.015
+    LowFreqTransmission: 0.1
+    MidFreqTransmission: 0.05
+    HighFreqTransmission: 0.03
 --- !u!114 &50679477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,37 +297,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.09
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.12
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.21
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.045
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.045
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.045
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -411,37 +411,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.24
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.69
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.73
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.005
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.003
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.02
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -577,37 +577,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.7
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.8
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.031
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.012
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.008
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -702,37 +702,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.03
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.06
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.18
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.122
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.033
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -919,37 +919,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.15
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.24
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.006
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.003
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.045
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -1033,32 +1033,32 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.075
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -1163,37 +1163,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.24
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.69
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.73
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.005
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.003
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.02
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -1328,37 +1328,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.03
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.06
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.18
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.122
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.033
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -1550,15 +1550,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 11
+  Preset: 0
   Value:
-    LowFreqAbsorption: 0.18
-    MidFreqAbsorption: 0.09
-    HighFreqAbsorption: 0.06
+    LowFreqAbsorption: 0.1
+    MidFreqAbsorption: 0.2
+    HighFreqAbsorption: 0.3
     Scattering: 0.05
-    LowFreqTransmission: 0.06
-    MidFreqTransmission: 0.044
-    HighFreqTransmission: 0.011
+    LowFreqTransmission: 0.1
+    MidFreqTransmission: 0.05
+    HighFreqTransmission: 0.03
 --- !u!114 &195865739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1728,37 +1728,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.15
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.24
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.006
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.003
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.045
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -1847,37 +1847,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.33
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.07
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.042
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.015
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -1993,37 +1993,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.24
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.69
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.73
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.005
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.003
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.02
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -2223,37 +2223,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.09
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.12
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.21
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.045
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.045
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.045
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -2436,37 +2436,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.09
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.12
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.21
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.045
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.045
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.045
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -2658,37 +2658,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.24
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.69
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.73
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.005
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.003
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.02
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -2783,12 +2783,12 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.13
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -2798,22 +2798,22 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.24
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.015
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.002
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.001
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3061,37 +3061,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.33
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.21
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.042
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.015
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3234,37 +3234,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.03
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.06
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.18
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.122
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.033
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3359,32 +3359,32 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.075
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3504,32 +3504,32 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.075
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3629,12 +3629,12 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.13
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3644,22 +3644,22 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.24
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.015
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.002
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.001
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3749,37 +3749,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.18
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.09
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.06
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.044
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.011
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3874,37 +3874,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.15
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.24
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.006
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.003
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.045
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -3988,32 +3988,32 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.075
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -4102,37 +4102,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.15
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.24
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.006
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.003
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.045
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -4216,37 +4216,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.18
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.09
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.06
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.044
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.011
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -4497,15 +4497,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 10
+  Preset: 0
   Value:
-    LowFreqAbsorption: 0.13
+    LowFreqAbsorption: 0.1
     MidFreqAbsorption: 0.2
-    HighFreqAbsorption: 0.24
+    HighFreqAbsorption: 0.3
     Scattering: 0.05
-    LowFreqTransmission: 0.015
-    MidFreqTransmission: 0.002
-    HighFreqTransmission: 0.001
+    LowFreqTransmission: 0.1
+    MidFreqTransmission: 0.05
+    HighFreqTransmission: 0.03
 --- !u!114 &672726813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4530,37 +4530,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.24
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.69
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.73
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.005
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.003
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.02
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -4747,15 +4747,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 11
+  Preset: 0
   Value:
-    LowFreqAbsorption: 0.09
-    MidFreqAbsorption: 0.12
-    HighFreqAbsorption: 0.21
+    LowFreqAbsorption: 0.1
+    MidFreqAbsorption: 0.2
+    HighFreqAbsorption: 0.3
     Scattering: 0.05
-    LowFreqTransmission: 0.045
-    MidFreqTransmission: 0.045
-    HighFreqTransmission: 0.045
+    LowFreqTransmission: 0.1
+    MidFreqTransmission: 0.05
+    HighFreqTransmission: 0.03
 --- !u!114 &678402478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4785,12 +4785,12 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.13
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -4800,22 +4800,22 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.24
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.015
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.002
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.001
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -5065,37 +5065,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.33
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.21
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.042
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.015
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -5287,14 +5287,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 11
+  Preset: 0
   Value:
-    LowFreqAbsorption: 0.6
-    MidFreqAbsorption: 0.21
-    HighFreqAbsorption: 0.18
+    LowFreqAbsorption: 0.1
+    MidFreqAbsorption: 0.2
+    HighFreqAbsorption: 0.3
     Scattering: 0.05
-    LowFreqTransmission: 0.6
-    MidFreqTransmission: 0.075
+    LowFreqTransmission: 0.1
+    MidFreqTransmission: 0.05
     HighFreqTransmission: 0.03
 --- !u!114 &797060398
 MonoBehaviour:
@@ -5511,37 +5511,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.18
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.09
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.06
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.044
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.011
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -5902,37 +5902,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.7
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.8
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.031
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.012
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.008
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -6037,37 +6037,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.33
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.21
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.042
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.015
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -6162,37 +6162,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.18
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.09
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.06
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.044
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.011
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -6402,12 +6402,12 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.13
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -6417,22 +6417,22 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.24
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.015
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.002
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.001
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -6722,37 +6722,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.33
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.21
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.042
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.015
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -7057,15 +7057,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 11
+  Preset: 0
   Value:
-    LowFreqAbsorption: 0.03
-    MidFreqAbsorption: 0.06
-    HighFreqAbsorption: 0.06
+    LowFreqAbsorption: 0.1
+    MidFreqAbsorption: 0.2
+    HighFreqAbsorption: 0.3
     Scattering: 0.05
-    LowFreqTransmission: 0.18
-    MidFreqTransmission: 0.122
-    HighFreqTransmission: 0.033
+    LowFreqTransmission: 0.1
+    MidFreqTransmission: 0.05
+    HighFreqTransmission: 0.03
 --- !u!1 &1321406768
 GameObject:
   m_ObjectHideFlags: 0
@@ -7209,15 +7209,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 4
+  Preset: 0
   Value:
-    LowFreqAbsorption: 0.6
-    MidFreqAbsorption: 0.7
-    HighFreqAbsorption: 0.8
+    LowFreqAbsorption: 0.1
+    MidFreqAbsorption: 0.2
+    HighFreqAbsorption: 0.3
     Scattering: 0.05
-    LowFreqTransmission: 0.031
-    MidFreqTransmission: 0.012
-    HighFreqTransmission: 0.008
+    LowFreqTransmission: 0.1
+    MidFreqTransmission: 0.05
+    HighFreqTransmission: 0.03
 --- !u!114 &1395329503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7595,37 +7595,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.09
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.12
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.21
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.045
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.045
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.045
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -7709,37 +7709,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.33
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.21
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.042
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.015
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -7931,15 +7931,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 5
+  Preset: 0
   Value:
-    LowFreqAbsorption: 0.24
-    MidFreqAbsorption: 0.69
-    HighFreqAbsorption: 0.73
+    LowFreqAbsorption: 0.1
+    MidFreqAbsorption: 0.2
+    HighFreqAbsorption: 0.3
     Scattering: 0.05
-    LowFreqTransmission: 0.02
-    MidFreqTransmission: 0.005
-    HighFreqTransmission: 0.003
+    LowFreqTransmission: 0.1
+    MidFreqTransmission: 0.05
+    HighFreqTransmission: 0.03
 --- !u!114 &1530697821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7964,37 +7964,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.18
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.09
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.06
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.044
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.011
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -8159,37 +8159,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.7
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.8
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.031
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.012
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.008
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -8532,15 +8532,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43300f764e354d642abf0f0dbb612011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Preset: 11
+  Preset: 0
   Value:
-    LowFreqAbsorption: 0.15
-    MidFreqAbsorption: 0.21
-    HighFreqAbsorption: 0.24
+    LowFreqAbsorption: 0.1
+    MidFreqAbsorption: 0.2
+    HighFreqAbsorption: 0.3
     Scattering: 0.05
-    LowFreqTransmission: 0.045
-    MidFreqTransmission: 0.006
-    HighFreqTransmission: 0.003
+    LowFreqTransmission: 0.1
+    MidFreqTransmission: 0.05
+    HighFreqTransmission: 0.03
 --- !u!114 &1582812003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9021,37 +9021,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.03
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.06
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.18
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.122
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.033
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -9157,32 +9157,32 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.075
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -9476,37 +9476,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.09
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.12
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.21
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.045
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.045
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.045
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -9590,37 +9590,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.7
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.8
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.031
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.012
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.008
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -9807,32 +9807,32 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.18
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.075
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -9968,12 +9968,12 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.13
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -9983,22 +9983,22 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.24
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.015
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.002
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.001
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -10099,37 +10099,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.15
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.21
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.24
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.006
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.003
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.045
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -10229,37 +10229,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.03
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.06
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.06
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.18
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.122
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.033
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
@@ -10391,37 +10391,37 @@ PrefabInstance:
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Preset
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqAbsorption
-      value: 0.6
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqAbsorption
-      value: 0.7
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqAbsorption
-      value: 0.8
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.LowFreqTransmission
-      value: 0.031
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.MidFreqTransmission
-      value: 0.012
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -3093493120209478800, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
       propertyPath: Value.HighFreqTransmission
-      value: 0.008
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 1767626649174036288, guid: 5c30a34d1ed834cfe9ba3785433bfeb6,
         type: 3}
