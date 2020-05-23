@@ -1,2 +1,2 @@
-# comp590_game
-Ongoing project for learning how to develop VE through Unity.
+# Treasure Hunt
+Ongoing project for exploring VR and relevant concepts through Unity.
